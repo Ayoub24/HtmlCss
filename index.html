@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Login Form Page</title>
+    <link rel="stylesheet" href="style.css">     
+</head>  
+<body>
+    <div class="box">
+        <h2>Login</h2>
+        <form>
+            <div class="inputbox">
+                <input type="text" id="login" value="" required>
+                <label>User Name</label>
+            </div>
+             <div class="inputbox">
+                <input type="password" id="password" value="" required>
+                <label>Password</label>
+            </div>
+            <input type="button" onclick="myFunction()" name="" value="Submit">
+        </form>
+    </div>
+    
+    <!-- pop-up -->
+    <div class="bg-modal">
+        <div class="modal-contents">
+            <div class="close" onclick="myClose()">+</div>
+            <div>
+                <h2>Welcome</h2>
+                <p id="loginOut"></p>
+                <p id="passOut"></p>
+            </div>
+        </div>       
+    </div>
+    <!-- pop-up -->
+    <script src="app.js" type="application/javascript"></script>
+</body>    
+</html>
