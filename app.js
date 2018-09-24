@@ -1,11 +1,11 @@
 function myFunction() {
-    var login = document.getElementById('login').value;
-    var pass = document.getElementById('password').value;
+    var FName = document.getElementById('FirstName').value;
+    var LName = document.getElementById('LastName').value;
     
-    if (login!=="" && pass!=="") {
+    if (FName !== "" && LName !== "") {
 	   document.querySelector('.bg-modal').style.display = "flex";
-       document.getElementById("loginOut").innerHTML = login;
-       document.getElementById("passOut").innerHTML = pass; 
+       console.log(FName);
+       document.getElementById("full_name").innerHTML = FName +" "+ LName;
     }    
 }
 

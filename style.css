@@ -90,7 +90,7 @@ body{
 .modal-contents {
 	height: 300px;
 	width: 500px;
-	background-color: white;
+	background-color: #00ffae;
 	text-align: center;
 	padding: 20px;
 	position: relative;
@@ -110,6 +110,18 @@ body{
 	}
 }
 
+p#full_name {
+   font-size: 50px;
+   font-weight: bold;
+   font-family: sans-serif;
+   
+}
+
+.modal-contents h2 {
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 0;
+}
 
 
 
