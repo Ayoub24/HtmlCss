@@ -57,7 +57,8 @@ body{
 }
 
 .box .inputbox input:focus~label,
-.box .inputbox input:valid~label
+.box .inputbox input:valid~label,
+.box .inputbox input:invalid~label
 {
     top: -18px;
     left: 0;
@@ -90,7 +91,7 @@ body{
 .modal-contents {
 	height: 300px;
 	width: 500px;
-	background-color: #00ffae;
+	background-color: #008080;
 	text-align: center;
 	padding: 20px;
 	position: relative;
@@ -114,13 +115,14 @@ p#full_name {
    font-size: 50px;
    font-weight: bold;
    font-family: sans-serif;
-   
+   color: white;   
 }
 
 .modal-contents h2 {
     font-weight: bold;
     font-size: 50px;
     margin-bottom: 0;
+    color: white;
 }
 
 
