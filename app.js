@@ -1,14 +1,15 @@
-function myFunction() {
-    var FName = document.getElementById('FirstName').value;
-    var LName = document.getElementById('LastName').value;   
+let myFunction = () => {
+    let FName = document.getElementById('FirstName').value;
+    let LName = document.getElementById('LastName').value;   
     document.querySelector('.bg-modal').style.display = "flex";
-    document.getElementById("full_name").innerHTML = FName +" "+ LName;      
+    document.getElementById("full_name").innerHTML = FName +" "+ LName;
 }
 
-function myClose() {
+let myClose = () => {
     document.querySelector('.bg-modal').style.display = "none";
 }
 
+//
 $(document).ready(function (){
     validate();
     $('#FirstName, #LastName').change(validate);
